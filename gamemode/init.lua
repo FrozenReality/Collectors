@@ -5,6 +5,21 @@ include("dayCycle.lua");
 include("sh_player.lua");
 include("cl_hud.lua");
 
+function GM:Initialize()
+    ServerLog('sweg');
+end
+
+function GM:PlayerDeath(victim, attacker)
+	if (victim == attacker) then
+		PrintMessage( HUD_PRINTTALK, "You're a fucking faggot");
+	else
+		PrintMessage( HUD_PRINTTALK,  "Test");
+	end
+end
+
+
+[[
+
 MONEY_STARTAMOUNT = 1000; --New players money amount.
 
 function FirstSpawn(ply)
@@ -31,15 +46,4 @@ end
 
 concommand.Add("cash_get", PrintCash);
 
-
-function GM:Initialize()
-    ServerLog('sweg');
-end
-
-function GM:PlayerDeath(victim, attacker)
-	if (victim == attacker) then
-		PrintMessage( HUD_PRINTTALK, "You're a fucking faggot");
-	else
-		PrintMessage( HUD_PRINTTALK,  "Test");
-	end
-end
+]]
