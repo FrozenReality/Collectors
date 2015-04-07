@@ -3,7 +3,6 @@ FADE_LENGTH = 2;
 NIGHT_LENGTH = 2;
 
 function StartDay()
-
     timer.Simple(DAY_LENGTH, EndDay);
     timer.Simple(DAY_LENGTH - FADE_LENGTH, FadePlayerScreens);
 end

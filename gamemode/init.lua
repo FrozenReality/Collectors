@@ -5,3 +5,4 @@ include("dayCycle.lua");
 function GM:Initialize()
     ServerLog('sweg');
 end
+
