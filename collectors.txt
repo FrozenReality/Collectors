@@ -1,0 +1,7 @@
+"collectors"
+{
+	"base"		"base"
+	"title"		"Collectors"
+	"maps"		"^col_"
+	"menusystem"	"1"
+}
