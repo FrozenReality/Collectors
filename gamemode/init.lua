@@ -3,6 +3,7 @@ AddCSLuaFile("sh_player.lua");
 
 include("dayCycle.lua");
 include("sh_player.lua");
+include("cl_hud.lua");
 
 MONEY_STARTAMOUNT = 1000; --New players money amount.
 
