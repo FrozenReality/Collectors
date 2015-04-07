@@ -6,7 +6,7 @@ function GM:Initialize()
     ServerLog('sweg');
 end
 
-function GM:PlayerDeath(victim, inflictor, attacker)
+function GM:PlayerDeath(victim, attacker)
 	if (victim == attacker) then
 		PrintMessage( HUD_PRINTTALK, victim:Name() .. " commited suicide.")
 	else
