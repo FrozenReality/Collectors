@@ -2,10 +2,8 @@ DAY_LENGTH = 10;
 NIGHT_LENGTH = 2;
 
 function StartDay()
-    
-    timer.Simple(DAY_LENGTH, function()
-        EndDay();
-    end);
+
+    timer.Simple(DAY_LENGTH, EndDay);
 end
 
 function EndDay()
