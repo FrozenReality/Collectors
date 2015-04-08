@@ -4,7 +4,8 @@ AddCSLuaFile("cl_init.lua")
 include("dayCycle.lua")
 
 function GM:Initialize()
-    ServerLog('sweg');
+    ServerLog('sweg\n');
+    StartDay();
 end
 
 function GM:PlayerDeath(victim, attacker)

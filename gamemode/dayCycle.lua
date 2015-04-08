@@ -3,7 +3,6 @@ FADE_LENGTH = 2;
 NIGHT_LENGTH = 2;
 
 playersInSafeZone = {};
-hasTimerStarted = false;
 
 function StartDay()
     timer.Simple(DAY_LENGTH, EndDay);
@@ -29,9 +28,4 @@ function KillPeople()
             ply:Kill();
         end
     end
-end
-
-if not hasTimerStarted then
-    hasTimerStarted = true;
-    StartDay();
 end
