@@ -1,7 +1,7 @@
 AddCSLuaFile("shared.lua")
 AddCSLuaFile("cl_init.lua")
 
-include("dayCycle.lua")
+-- include("dayCycle.lua")
 
 function GM:Initialize()
     ServerLog('sweg');
