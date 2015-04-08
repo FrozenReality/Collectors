@@ -3,7 +3,6 @@ AddCSLuaFile("sh_player.lua");
 
 include("dayCycle.lua");
 include("sh_player.lua");
-include("cl_hud.lua");
 
 function GM:Initialize()
     ServerLog('sweg');
