@@ -1,0 +1,11 @@
+//-------------------------------------------------------------------------
+//
+// Collectors
+//
+//-------------------------------------------------------------------------
+@include "base.fgd"
+
+@SolidClass base(Angles, Origin) = co_safe_zone :
+	"A safe zone to survive the night."
+[
+]
