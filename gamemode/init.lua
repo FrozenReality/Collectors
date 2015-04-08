@@ -1,6 +1,7 @@
 AddCSLuaFile("shared.lua");
 AddCSLuaFile("sh_player.lua");
 AddCSLuaFile("cl_init.lua");
+AddCSLuaFile("cl_gui.lua");
 
 include("dayCycle.lua");
 include("sh_player.lua");

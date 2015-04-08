@@ -1,3 +1,5 @@
+[[
+
 local meta = FindMetaTable("Player"); --Get the meta table of player
 
 function meta:AddMoney(amount)
@@ -26,3 +28,5 @@ end
 function metaGetMoney(amount)
 	return self:GetNetworkedInt("Money");
 end
+
+]]
